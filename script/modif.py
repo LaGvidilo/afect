@@ -1,5 +1,4 @@
 from PIL import Image
-from statistics import min
 import random
 #f=open("motif_out.csv","w")
 im = Image.open("im.jpg") # open colour image
