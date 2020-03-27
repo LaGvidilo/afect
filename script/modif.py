@@ -1,11 +1,11 @@
-from PIL import Image 
-from statistics import *
+from PIL import Image
+from statistics import min
 import random
 #f=open("motif_out.csv","w")
 im = Image.open("im.jpg") # open colour image
 #f.write("x0,x1,y\n")
 xs,ys = im.size
-for qual in range(2,256):
+for qual in range(1,256):
 	im = Image.open("im.jpg") # open colour image
 	xs,ys = im.size
 	for x in range(0,xs):
